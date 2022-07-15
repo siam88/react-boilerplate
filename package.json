@@ -24,6 +24,13 @@
       "react-app/jest"
     ]
   },
+  "resolutions": {
+    "immer": "9.0.12"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
+
   "browserslist": {
     "production": [
       ">0.2%",
