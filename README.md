@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with REACT_BOILERPLATE
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## what you get when choosing react-boilerplate:
+    - Redux
+    - Folder structure
+    - React Router
+    - axios
+
 
 ## Available Scripts
 
