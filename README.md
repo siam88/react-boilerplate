@@ -1,8 +1,8 @@
-# Getting Started with REACT_BOILERPLATE
+# Getting Started with REACT BOILERPLATE
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## what you get when choosing react-boilerplate:
+## what you get when choosing this react boilerplate:
     - Redux
     - Folder structure
     - React Router
