@@ -16,13 +16,16 @@ There is a function in utils folder import it in your file
 
 ### `import Translate from "./utils/translate";`
 
-Currently I am adding two script for two language they are en to bn or bn to en. follow 3 steps to translate
+Currently I am adding two script for two language they are en to bn or bn to en. follow 3 steps to translate.
 
-**`Step 1` If you want to add new words to translate ,then go to your desire language file located in `src/locales/your_desired_file`**
+- **`Step 1` If you want to add new words to translate ,then go to your desire language file located in `src/locales/your_desired_file`**
 
-**`Step 2` I have added few words that are inside common object. If you want to group then then create a new object but one thing to remember that you have to add those objects in all the languages that you want to translate**
+- **`Step 2` I have added few words that are inside common object. If you want to group then then create a new object but one thing to remember that you have to add those objects in all the languages that you want to translate**
 
-**`Step 3` Inside your object follow this `[words.login]: "সাইন আপ",` pattern.I am using an example for better understanding**
+- **`Step 3` Inside your object follow this `[words.login]: "সাইন আপ"` pattern.I am using an example for better understanding**
+
+- **`Step 4` Inside other language object follow this `[words.login]: "Login"` pattern too.**
+- **`Step 5` finally call the function and send two parameters. one is for languge that you want to translate and other is to sent a string like `"common.login"`.there common is for the object and after login is for the word we will use**
 ## Available Scripts
 
 In the project directory, you can run:
