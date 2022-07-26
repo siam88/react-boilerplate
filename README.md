@@ -12,11 +12,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Translation (How to use)
 
-There is a function in utils folder import it in your file
 
-### `import Translate from "./utils/translate";`
 
-Currently I am adding two script for two language they are en to bn or bn to en. follow 3 steps to translate.
+### use translate 
+
+Currently I am adding two script for two language they are en to bn or bn to en. follow 6 steps to translate.
 
 - **`Step 1` If you want to add new words to translate ,then go to your desire language file located in `src/locales/your_desired_file`**
 
@@ -25,7 +25,10 @@ Currently I am adding two script for two language they are en to bn or bn to en.
 - **`Step 3` Inside your object follow this `[words.login]: "সাইন আপ"` pattern.I am using an example for better understanding**
 
 - **`Step 4` Inside other language object follow this `[words.login]: "Login"` pattern too.**
-- **`Step 5` finally call the function and send two parameters. one is for languge that you want to translate and other is to sent a string like `"common.login"`.there common is for the object and after login is for the word we will use**
+
+- **`Step 5` There is a function in utils folder import it in your file `import Translate from "./utils/translate";`**
+
+- **`Step 6` finally call the function and send two parameters. one is for languge that you want to translate and other is to sent a string like `"common.login"`.there common is for the object and after login is for the word we will use**
 ## Available Scripts
 
 In the project directory, you can run:
