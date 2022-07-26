@@ -1,9 +1,9 @@
 import React from "react";
 import Translate from "./utils/translate";
-import "./App.css";
+// {Translate("bn", "common.login")}
 
 const App = () => {
-  return <div className="App">{Translate("bn", "common.login")}</div>;
+  return <div className="App"></div>;
 };
 
 export default App;
