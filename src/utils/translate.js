@@ -1,5 +1,5 @@
-import bn from "../data/locales/bn";
-import en from "../data/locales/en";
+import bn from "../locales/bn";
+import en from "../locales/en";
 
 const Translate = (locale = "en", key, params = null) => {
   function getValue(locale, key, params = null) {

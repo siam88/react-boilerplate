@@ -13,10 +13,13 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
+    "react-toastify": "^9.0.7",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "nth-check": "^2.0.1"
+    "install-peers": "^1.0.4",
+    "nth-check": "^2.0.1",
+    "sass": "^1.54.0"
   },
   "scripts": {
     "start": "react-scripts start",

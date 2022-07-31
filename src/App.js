@@ -1,9 +1,9 @@
 import React from "react";
 import Translate from "./utils/translate";
-import {Navigate,Route,Routes} from 'react-router-dom'
+import DefaultWrapper from "./wrappers/default/index";
 
 const App = () => {
-  return <div className="App">{Translate("bn", "common.login")}</div>;
+  return <DefaultWrapper>{Translate("bn", "common.login")}</DefaultWrapper>;
 };
 
 export default App;
