@@ -1,18 +1,31 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import ScrollToTop from "../../helper/scroll-top";
+import ScrollToTop from "helper/scroll-top";
 import { ToastContainer } from "react-toastify";
+import RoutesHome from "routes";
 
-const DefaultWrapper = (props) => {
+const DefaultWrapper = () => {
   return (
-    <>
-      <ToastContainer />
+    <Suspense fallback={<Spinner />}>
       <Router>
-        {" "}
-        <ScrollToTop>{props.children}</ScrollToTop>
+        <ToastContainer />
+        <ScrollToTop />
+        <RoutesHome />
       </Router>
-    </>
+    </Suspense>
   );
 };
 
 export default DefaultWrapper;
+
+/*--- Spinner Component ---*/
+const Spinner = () => {
+  return (
+    <div className="flone-preloader-wrapper">
+      <div className="flone-preloader">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  );
+};
