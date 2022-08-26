@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import ScrollToTop from "helpers/scroll-top";
+import ScrollToTop from "";
 import { ToastContainer } from "react-toastify";
 import RoutesHome from "routes";
 
