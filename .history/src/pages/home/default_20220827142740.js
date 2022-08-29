@@ -1,11 +1,11 @@
 import React from "react";
 
-import { KanbanBoard } from "features";
+import { kanbanBoard } from "features";
 
 const Default = () => {
   return (
     <>
-      <KanbanBoard />
+      <kanbanBoard />
     </>
   );
 };
